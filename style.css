@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #5a26, plum);
+
+}
+main{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.4rem;
+}
+.title-container{
+    text-align: center;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+label{
+    font-weight: bold;
+
+}
+.amount-container{
+    margin-bottom: 1.3rem;
+
+}
+.amount-container> input[type="number"]{
+    width: 100%;
+    border: 1px solid black;
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+    outline: 0;
+
+}
+
+.unit-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.select-container> select{
+    border: 1px solid black;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+.middle > i{
+    margin-top: 150%;
+}
+
+.formular-container{
+    margin-bottom: 1.4rem;
+}
+
+.formular-container > .title{
+    background-color: brown;
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+.formular-container > .content{
+    font-size: 0.8rem;
+
+}
+.result{
+    margin-bottom: 1.5rem;
+}
+.result-container > input[type="text"]{
+    border: 1px solid  black;
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+    outline: 0;
+}
